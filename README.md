@@ -1,2 +1,2 @@
 # ex-mysql
-Sample MySQL application to characterize data
+Sample MySQL application used to characterize data
