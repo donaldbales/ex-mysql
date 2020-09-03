@@ -1,0 +1,5 @@
+#!/bin/bash
+
+. setenv
+
+tsc && node src/index -t search -s "${1}" -l > "${1}_lk.txt" 2> "${1}_lk.sql"

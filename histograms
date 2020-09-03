@@ -1,0 +1,5 @@
+#!/bin/bash
+
+. setenv
+
+tsc && node --unhandled-rejections=strict src/index -t histograms >histograms.txt 2>histograms.sql
