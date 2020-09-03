@@ -1,0 +1,6 @@
+export MYSQL_USER=user
+export MYSQL_PASSWORD=password
+export MYSQL_DATABASE=database
+export MYSQL_HOST=localhost
+export MYSQL_SSL_CA=./ca.pem
+export MYSQL_SSL_VERIFY_SERVER_CERT=true
