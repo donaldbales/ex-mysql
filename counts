@@ -1,0 +1,5 @@
+#!/bin/bash
+
+. setenv
+
+tsc && node --unhandled-rejections=strict src/index -t counts >counts.txt 2>counts.sql

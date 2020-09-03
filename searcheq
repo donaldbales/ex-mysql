@@ -1,0 +1,5 @@
+#!/bin/bash
+
+. setenv
+
+tsc && node --unhandled-rejections=strict src/index -t search -s "${1}" > "${1}_eq.txt" 2> "${1}_eq.sql"

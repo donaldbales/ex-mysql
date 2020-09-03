@@ -1,0 +1,5 @@
+#!/bin/bash
+
+. setenv
+
+tsc && node --unhandled-rejections=strict src/index -t descs >descs.txt 2>descs.sql
